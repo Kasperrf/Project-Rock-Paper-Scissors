@@ -1,0 +1,17 @@
+Create function getComputerChoice to return rock, paper scissors randomly:
+Create empty computerValue
+Function uses Math.random, if value under or equal to 0.3333 outcome assign "Rock" to 
+computerValue, if value over or equal to 0.6666 assign "Paper" to computerValue else assign "Scissors" 
+to computerValue. 
+
+Create function getHumanChoice to receive human input
+Create empty variable "humanValue"
+Create prompt where player enters their choice and assign to variable.
+Force the player to choose one of the valid choices.
+
+
+Create two new variables, humanScore and computerScore, assign 0 to both variables
+
+Create a new function called playRound, this function will take two arguments: getComputerChoice
+and getHumanChoice. This function will check values, add score to either humanScore or computerScore
+print outcome and why the outcome is what it is.
