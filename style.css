@@ -1,0 +1,111 @@
+body {
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    background-color: black;
+  }
+
+.scoreHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    height: 15vh;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.scorePlayer,
+.scoreComputer{
+  width: 10vw;
+  display: flex;
+  gap: 5%;
+  align-items: center;
+}
+
+.txtArea{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.txtHeader{
+  font-size: 40px;
+}
+
+.txtOutcome{
+  font-size: 20px;
+}
+
+.playArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    height: 20vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 50px;
+}
+
+
+
+/* Button */
+button {
+  appearance: button;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  box-shadow: #000000 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Orbitron", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+button:focus {
+  text-decoration: none;
+}
+
+button:hover {
+  text-decoration: none;
+}
+
+button:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+button:not([disabled]):active{
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  button {
+    padding: 12px 50px;
+  }
+}
